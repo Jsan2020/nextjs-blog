@@ -10,17 +10,18 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
-          Read{" "}
-          <Link href="/posts/first-post">
-            <a>this page!</a>
-          </Link>
-        </h1>
+        <h1 className="title">.</h1>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
+        <div>
+          <ul>
+            <li>
+              <Link href="/posts/first-post">first-post</Link>
+            </li>
+            <li>
+              <Link href="/about">about</Link>
+            </li>
+          </ul>
+        </div>
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
